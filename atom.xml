@@ -6,7 +6,7 @@
   <link href="https://github.com/YJP520/YJP520.github.io/atom.xml" rel="self"/>
   
   <link href="https://github.com/YJP520/YJP520.github.io/"/>
-  <updated>2022-12-03T06:51:55.266Z</updated>
+  <updated>2022-12-04T17:04:19.702Z</updated>
   <id>https://github.com/YJP520/YJP520.github.io/</id>
   
   <author>
@@ -17,19 +17,42 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>neo4j-图数据库使用教程</title>
+    <link href="https://github.com/YJP520/YJP520.github.io/2022/12/05/neo4j/"/>
+    <id>https://github.com/YJP520/YJP520.github.io/2022/12/05/neo4j/</id>
+    <published>2022-12-04T16:52:53.936Z</published>
+    <updated>2022-12-04T17:04:19.702Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://yjp520.github.io/&quot;&gt;YU.J.P’s Blog&lt;/a&gt;! 在这里你将学习neo4j图数据库的基本使用教程。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&quot;理论知识&quot;&gt;&lt;a href=&quot;#理论知识&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>Hexo博客样式失效问题</title>
     <link href="https://github.com/YJP520/YJP520.github.io/2022/12/03/hexo-bo-ke-yang-shi-shi-xiao-wen-ti/"/>
     <id>https://github.com/YJP520/YJP520.github.io/2022/12/03/hexo-bo-ke-yang-shi-shi-xiao-wen-ti/</id>
     <published>2022-12-03T06:46:45.158Z</published>
-    <updated>2022-12-03T06:51:55.266Z</updated>
+    <updated>2022-12-04T17:03:42.077Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h3 id=&quot;问题描述&quot;&gt;&lt;a href=&quot;#问题描述&quot; class=&quot;headerlink&quot; title=&quot;问题描述&quot;&gt;&lt;/a&gt;问题描述&lt;/h3&gt;&lt;p&gt;Hexo本地效果正常，部署后丢失css样式&lt;/p&gt;
-&lt;h3 id=&quot;添加设置问题&quot;&gt;&lt;a href=&quot;#添加设置问题&quot;</summary>
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://yjp520.github.io/&quot;&gt;YU.J.P’s Blog&lt;/a&gt;! 在这里你将学习到Hexo博客搭建过程中常见的css失效问题解决办法。&lt;/p&gt;
+&lt;h3 id=&quot;问题描述&quot;&gt;&lt;a href=&quot;#问题描述&quot;</summary>
         
       
     
@@ -43,14 +66,15 @@
     <link href="https://github.com/YJP520/YJP520.github.io/2022/12/03/hexo-git/"/>
     <id>https://github.com/YJP520/YJP520.github.io/2022/12/03/hexo-git/</id>
     <published>2022-12-03T06:37:34.634Z</published>
-    <updated>2022-12-03T06:44:15.274Z</updated>
+    <updated>2022-12-04T17:03:39.232Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;Git基本操作&quot;&gt;&lt;a href=&quot;#Git基本操作&quot; class=&quot;headerlink&quot; title=&quot;Git基本操作&quot;&gt;&lt;/a&gt;Git基本操作&lt;/h2&gt;&lt;h3 id=&quot;添加分支&quot;&gt;&lt;a href=&quot;#添加分支&quot; class=&quot;headerlink&quot;</summary>
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://yjp520.github.io/&quot;&gt;YU.J.P’s Blog&lt;/a&gt;! 在这里你将学习到Hexo的基本用法和Git的基本用法。&lt;/p&gt;
+&lt;h2 id=&quot;Git基本操作&quot;&gt;&lt;a href=&quot;#Git基本操作&quot;</summary>
         
       
     
