@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>GitLab - VaCode - 提交步骤</title>
+      <link href="/2023/05/16/gitlab-vscode-ti-jiao/"/>
+      <url>/2023/05/16/gitlab-vscode-ti-jiao/</url>
+      
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://yjp520.github.io/">YU.J.P’s Blog</a>! 在这里你将学习到GitLab联合VsCode提交代码的基本用法。</p><h2 id="基本步骤"><a href="#基本步骤" class="headerlink" title="基本步骤"></a>基本步骤</h2><h3 id="拉取项目"><a href="#拉取项目" class="headerlink" title="拉取项目"></a>拉取项目</h3><ol><li>克隆原仓库</li></ol><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ <span class="token function">git</span> clone https://gitlab.eduxiji.net/202311660201858/wgz.git<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><ol start="2"><li>使用 Vscode 打开项目文件目录</li></ol><h3 id="Vscode-配置Git"><a href="#Vscode-配置Git" class="headerlink" title="Vscode 配置Git"></a>Vscode 配置Git</h3><ol><li>找到本机的 git.exe 路径，如命令行输入</li></ol><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ where <span class="token function">git</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p><img src="/image/img_10.png" alt="img.png"></p><ol start="2"><li>Vscode 找到 Git 配置，点击 Edit in settings.json</li></ol><p><img src="/image/img_8.png" alt="img.png"></p><ol start="3"><li>在”git-path”处加入git路径</li></ol><p><img src="/image/img_9.png" alt="img.png"></p><h3 id="创建个人分支"><a href="#创建个人分支" class="headerlink" title="创建个人分支"></a>创建个人分支</h3><ol><li>点击分支目录，添加自己的分支</li></ol><p><img src="/image/img_11.png" alt="img.png"></p><ol start="2"><li>终端或命令行使用命令 添加账户及邮箱</li></ol><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token function">git</span> config <span class="token parameter variable">--global</span> user.name <span class="token string">"Your Name"</span><span class="token function">git</span> config <span class="token parameter variable">--global</span> user.email <span class="token string">"youremail@yourdomain.com"</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><ol start="3"><li>看个人情况进行项目构建，代码添加</li></ol><p><img src="/image/img_12.png" alt="img.png"></p><ol start="4"><li>点击加号,然后点击 commit</li></ol><p><img src="/image/img_13.png" alt="img.png"></p><ol start="5"><li>添加提交日志，保存</li></ol><p><img src="/image/img_14.png" alt="img.png"></p><ol start="6"><li>点击右上角勾勾 上传 push,然后点击以下按钮，完成上传</li></ol><p><img src="/image/img_15.png" alt="img.png"></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>VsCode 配置 C++ 环境</title>
       <link href="/2023/05/16/vscode-pei-zhi-c/"/>
       <url>/2023/05/16/vscode-pei-zhi-c/</url>
