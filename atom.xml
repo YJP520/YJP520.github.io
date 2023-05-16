@@ -6,7 +6,7 @@
   <link href="https://github.com/YJP520/YJP520.github.io/atom.xml" rel="self"/>
   
   <link href="https://github.com/YJP520/YJP520.github.io/"/>
-  <updated>2022-12-04T17:04:19.702Z</updated>
+  <updated>2023-05-16T13:52:46.295Z</updated>
   <id>https://github.com/YJP520/YJP520.github.io/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>VsCode 配置 C++ 环境</title>
+    <link href="https://github.com/YJP520/YJP520.github.io/2023/05/16/vscode-pei-zhi-c/"/>
+    <id>https://github.com/YJP520/YJP520.github.io/2023/05/16/vscode-pei-zhi-c/</id>
+    <published>2023-05-16T13:24:12.909Z</published>
+    <updated>2023-05-16T13:52:46.295Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://yjp520.github.io/&quot;&gt;YU.J.P’s Blog&lt;/a&gt;! 在这里你将学习到VsCode配置C++环境的方法。&lt;/p&gt;
+&lt;h2 id=&quot;目的描述&quot;&gt;&lt;a href=&quot;#目的描述&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>neo4j-图数据库使用教程</title>
