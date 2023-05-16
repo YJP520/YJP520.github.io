@@ -6,9 +6,9 @@
     <meta charset="utf-8">
     <meta name="keywords" content="Hexo-Git, Mandy-独恋云风星月">
     <meta name="description" content="Welcome to YU.J.P’s Blog! 在这里你将学习到Hexo的基本用法和Git的基本用法。
-Git基本操作添加分支$ git init
+Git - 基本操作添加分支$ git init
 $ git branch
-$ git remote add origin https:/">
+$ git remote add origin http">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -406,7 +406,7 @@ $ git remote add origin https:/">
         <div class="card-content article-card-content">
             <div id="articleContent">
                 <p>Welcome to <a target="_blank" rel="noopener" href="https://yjp520.github.io/">YU.J.P’s Blog</a>! 在这里你将学习到Hexo的基本用法和Git的基本用法。</p>
-<h2 id="Git基本操作"><a href="#Git基本操作" class="headerlink" title="Git基本操作"></a>Git基本操作</h2><h3 id="添加分支"><a href="#添加分支" class="headerlink" title="添加分支"></a>添加分支</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ <span class="token function">git</span> init
+<h2 id="Git-基本操作"><a href="#Git-基本操作" class="headerlink" title="Git - 基本操作"></a>Git - 基本操作</h2><h3 id="添加分支"><a href="#添加分支" class="headerlink" title="添加分支"></a>添加分支</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ <span class="token function">git</span> init
 $ <span class="token function">git</span> branch
 $ <span class="token function">git</span> remote <span class="token function">add</span> origin https://github.com/YJP520/YJP520.github.io.git
 $ <span class="token function">git</span> remote <span class="token parameter variable">-v</span>
@@ -419,8 +419,16 @@ $ <span class="token function">git</span> push <span class="token parameter vari
 <h3 id="删除本地分支（在另一个分支下删除）"><a href="#删除本地分支（在另一个分支下删除）" class="headerlink" title="删除本地分支（在另一个分支下删除）"></a>删除本地分支（在另一个分支下删除）</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ <span class="token function">git</span> branch <span class="token parameter variable">-d</span> <span class="token punctuation">[</span>name<span class="token punctuation">]</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 <h3 id="删除远程分支"><a href="#删除远程分支" class="headerlink" title="删除远程分支"></a>删除远程分支</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ <span class="token function">git</span> push origin <span class="token parameter variable">-d</span> <span class="token punctuation">[</span>name<span class="token punctuation">]</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
+<h2 id="Hexo-基本操作"><a href="#Hexo-基本操作" class="headerlink" title="Hexo - 基本操作"></a>Hexo - 基本操作</h2><h3 id="Hexo上传"><a href="#Hexo上传" class="headerlink" title="Hexo上传"></a>Hexo上传</h3><p>清除本地静态博客网页</p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo clean<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
-<h3 id="Hexo-基本操作"><a href="#Hexo-基本操作" class="headerlink" title="Hexo - 基本操作"></a>Hexo - 基本操作</h3><h3 id="初始化模板"><a href="#初始化模板" class="headerlink" title="初始化模板"></a>初始化模板</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo init blog-demo<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<p>生成本地静态博客网页</p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo g<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<p>上传博客网页</p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo d<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<h3 id="初始化模板"><a href="#初始化模板" class="headerlink" title="初始化模板"></a>初始化模板</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo init blog-demo<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
 <h3 id="插件安装"><a href="#插件安装" class="headerlink" title="插件安装"></a>插件安装</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ <span class="token function">npm</span> <span class="token function">install</span> hexo-deployer-git <span class="token parameter variable">--save</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
