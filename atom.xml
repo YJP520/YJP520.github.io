@@ -6,7 +6,7 @@
   <link href="https://github.com/YJP520/YJP520.github.io/atom.xml" rel="self"/>
   
   <link href="https://github.com/YJP520/YJP520.github.io/"/>
-  <updated>2023-05-17T04:25:50.190Z</updated>
+  <updated>2023-05-17T07:00:23.648Z</updated>
   <id>https://github.com/YJP520/YJP520.github.io/</id>
   
   <author>
@@ -17,11 +17,33 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>GitLab - VsCode - 提交步骤</title>
+    <title>VsCode-C++问题集合</title>
+    <link href="https://github.com/YJP520/YJP520.github.io/2023/05/17/vscode-c-wen-ti-ji-he/"/>
+    <id>https://github.com/YJP520/YJP520.github.io/2023/05/17/vscode-c-wen-ti-ji-he/</id>
+    <published>2023-05-17T06:47:46.026Z</published>
+    <updated>2023-05-17T07:00:23.648Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://yjp520.github.io/&quot;&gt;YU.J.P’s Blog&lt;/a&gt;! 在这里你将学习到VsCode配合C++环境使用时，一些细节问题的解决办法。&lt;/p&gt;
+&lt;h2 id=&quot;细节问题&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>GitLab-VsCode-提交步骤</title>
     <link href="https://github.com/YJP520/YJP520.github.io/2023/05/16/gitlab-vscode-ti-jiao/"/>
     <id>https://github.com/YJP520/YJP520.github.io/2023/05/16/gitlab-vscode-ti-jiao/</id>
     <published>2023-05-16T15:09:55.967Z</published>
-    <updated>2023-05-17T04:25:50.190Z</updated>
+    <updated>2023-05-17T06:49:28.193Z</updated>
     
     
       

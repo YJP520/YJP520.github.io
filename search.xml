@@ -4,7 +4,20 @@
   
     
     <entry>
-      <title>GitLab - VsCode - 提交步骤</title>
+      <title>VsCode-C++问题集合</title>
+      <link href="/2023/05/17/vscode-c-wen-ti-ji-he/"/>
+      <url>/2023/05/17/vscode-c-wen-ti-ji-he/</url>
+      
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://yjp520.github.io/">YU.J.P’s Blog</a>! 在这里你将学习到VsCode配合C++环境使用时，一些细节问题的解决办法。</p><h2 id="细节问题"><a href="#细节问题" class="headerlink" title="细节问题"></a>细节问题</h2><h3 id="如何运行程序"><a href="#如何运行程序" class="headerlink" title="如何运行程序"></a>如何运行程序</h3><p>在Vscode中打开终端。</p><ol><li><p><strong>一般执行</strong></p><p> 如果只有一个.cpp文件，如main.cpp，使用以下命令编程可执行程序。</p></li></ol><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ g++ <span class="token parameter variable">-o</span> run ./main.cpp$ ./run.exe<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><ol start="2"><li><p><strong>多个.cpp编译</strong></p><p> 如果有多个.cpp文件，如main.cpp、src/test.cpp、src/init.cpp，使用以下命令编程可执行程序。</p></li></ol><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ g++ <span class="token parameter variable">-o</span> run ./main.cpp ./src/test.cpp ./src/src/init.cpp$ ./run.exe<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><p><img src="/image/img_16.jpg" alt="img.png"></p><h2 id="重点问题"><a href="#重点问题" class="headerlink" title="重点问题"></a>重点问题</h2><h3 id="举例"><a href="#举例" class="headerlink" title="举例"></a>举例</h3>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>GitLab-VsCode-提交步骤</title>
       <link href="/2023/05/16/gitlab-vscode-ti-jiao/"/>
       <url>/2023/05/16/gitlab-vscode-ti-jiao/</url>
       
