@@ -4,8 +4,12 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="Hello World, Mandy-独恋云风星月">
-    <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hex">
+    <meta name="keywords" content="neo4j-图数据库使用教程, Mandy-独恋云风星月">
+    <meta name="description" content="Welcome to YU.J.P’s Blog! 在这里你将学习neo4j图数据库的基本使用教程。
+
+理论知识教程资源-知识图谱导论-bilibili
+什么是知识图谱？先摘一段百度百科：
+知识图谱（Knowledge Graph），在图书">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -17,7 +21,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>Hello World | Mandy-独恋云风星月</title>
+    <title>neo4j-图数据库使用教程 | Mandy-独恋云风星月</title>
     <link rel="icon" type="image/png" href="/favicon.png">
     
 
@@ -52,9 +56,9 @@
 
     <script src="/libs/jquery/jquery-3.6.0.min.js"></script>
 
-<meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="Mandy-独恋云风星月" type="application/atom+xml">
-
+<meta name="generator" content="Hexo 6.3.0">
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
+<link rel="alternate" href="/atom.xml" title="Mandy-独恋云风星月" type="application/atom+xml">
 </head>
 
 
@@ -337,12 +341,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/12.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/23.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">Hello World</h1>
+                    <h1 class="description center-align post-title">neo4j-图数据库使用教程</h1>
                 </div>
             </div>
         </div>
@@ -378,7 +382,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>Publish Date:&nbsp;&nbsp;
-                    2022-12-03
+                    2022-12-05
                 </div>
                 
 
@@ -402,20 +406,80 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+                <p>Welcome to <a target="_blank" rel="noopener" href="https://yjp520.github.io/">YU.J.P’s Blog</a>! 在这里你将学习neo4j图数据库的基本使用教程。</p>
+<hr>
+<h3 id="理论知识"><a href="#理论知识" class="headerlink" title="理论知识"></a><strong>理论知识</strong></h3><p><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1pG4y1t7er?p=37&amp;vd_source=0485bf51f6c5687165e39d63ac6bb095">教程资源-知识图谱导论-bilibili</a></p>
+<p><strong>什么是知识图谱？先摘一段百度百科：</strong></p>
+<p>知识图谱（Knowledge Graph），在图书情报界称为知识域可视化或知识领域映射地图，是显示知识发展进程与结构关系的一系列各种不同的图形，用 可视化技术描述知识资源及其载体，挖掘、分析、 构建、绘制和显示知识及它们之间的相互联系。 知识图谱是通过将应用数学、 图形学、信息可视化技术、 信息科学等学科的理论与方法与计量学引文分析、共现分析等方法结合，并利用可视化的图谱形象地展示学科的核心结构、发展历史、 前沿领域以及整体知识架构达到多学科融合目的的现代理论。它能为学科研究提供切实的、有价值的参考。</p>
+<hr>
+<h3 id="neo4j使用简介"><a href="#neo4j使用简介" class="headerlink" title="neo4j使用简介"></a><strong>neo4j使用简介</strong></h3><p>neo4j下载链接：<a target="_blank" rel="noopener" href="https://neo4j.com/download-center/">neo4j download</a></p>
+<p>操作界面展示<br><img src="/image/img_5.png" alt="img.png"></p>
+<p>启动命令-CMD命令行</p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ neo4j.bat console<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<p><img src="/image/img_6.png" alt="img.png"></p>
+<p>打开操作界面</p>
+<pre class="line-numbers language-none"><code class="language-none">浏览器输入 http://localhost:7474/
+登录 - 初始用户：neo4j 初始密码：neo4j
+目前 - 用户名：neo4j 密码：123456<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo server<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<p>neo4j使用-参考博客链接</p>
+<p><a target="_blank" rel="noopener" href="http://t.csdn.cn/M8w0j">1. Neo4j 安装、使用教程</a></p>
+<p><a target="_blank" rel="noopener" href="http://t.csdn.cn/vzbjO">2. neo4j新手教程</a></p>
+<p><a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/88745411?utm_source=wechat_session">3. 手把手教你快速入门知识图谱 - Neo4J教程</a></p>
+<p><a target="_blank" rel="noopener" href="http://t.csdn.cn/ARRFy">4. Neo4j：入门基础（二）之导入CSV文件</a></p>
+<p>python操作简介</p>
+<pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token keyword">from</span> py2neo <span class="token keyword">import</span> Graph<span class="token punctuation">,</span> Node<span class="token punctuation">,</span> Relationship<span class="token punctuation">,</span> NodeMatcher
+<span class="token keyword">import</span> py2neo
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo generate<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+g <span class="token operator">=</span> Graph<span class="token punctuation">(</span><span class="token string">"http://localhost:7474/"</span><span class="token punctuation">,</span> user<span class="token operator">=</span><span class="token string">'neo4j'</span><span class="token punctuation">,</span> password<span class="token operator">=</span><span class="token string">'123456'</span><span class="token punctuation">)</span>
+<span class="token comment"># 结点</span>
+test_node_1 <span class="token operator">=</span> Node<span class="token punctuation">(</span><span class="token string">"Person"</span><span class="token punctuation">,</span> name<span class="token operator">=</span><span class="token string">'P1'</span><span class="token punctuation">)</span>
+test_node_2 <span class="token operator">=</span> Node<span class="token punctuation">(</span><span class="token string">"Person"</span><span class="token punctuation">,</span> name<span class="token operator">=</span><span class="token string">'P2'</span><span class="token punctuation">)</span>
+<span class="token comment"># 添加属性</span>
+test_node_1<span class="token punctuation">[</span><span class="token string">'age'</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token number">18</span>
+test_node_1<span class="token punctuation">[</span><span class="token string">'sex'</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token string">'男'</span>
+test_node_2<span class="token punctuation">[</span><span class="token string">'age'</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token number">19</span>
+test_node_2<span class="token punctuation">[</span><span class="token string">'sex'</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token string">'女'</span>
+<span class="token comment"># 创建结点</span>
+g<span class="token punctuation">.</span>create<span class="token punctuation">(</span>test_node_1<span class="token punctuation">)</span>
+g<span class="token punctuation">.</span>create<span class="token punctuation">(</span>test_node_2<span class="token punctuation">)</span>
+<span class="token comment"># 创建覆盖式结点</span>
+g<span class="token punctuation">.</span>merge<span class="token punctuation">(</span>test_node_1<span class="token punctuation">,</span> <span class="token string">"Person"</span><span class="token punctuation">,</span> <span class="token string">"name"</span><span class="token punctuation">)</span>
+g<span class="token punctuation">.</span>merge<span class="token punctuation">(</span>test_node_2<span class="token punctuation">,</span> <span class="token string">"Person"</span><span class="token punctuation">,</span> <span class="token string">"name"</span><span class="token punctuation">)</span>
+<span class="token comment"># 创建关系</span>
+friend <span class="token operator">=</span> Relationship<span class="token punctuation">(</span>test_node_1<span class="token punctuation">,</span> <span class="token string">'friend'</span><span class="token punctuation">,</span> test_node_2<span class="token punctuation">)</span>
+g<span class="token punctuation">.</span>merge<span class="token punctuation">(</span>friend<span class="token punctuation">,</span> <span class="token string">"Person"</span><span class="token punctuation">,</span> <span class="token string">"name"</span><span class="token punctuation">)</span>
+<span class="token comment"># 查询结点</span>
+matcher <span class="token operator">=</span> NodeMatcher<span class="token punctuation">(</span>g<span class="token punctuation">)</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>matcher<span class="token punctuation">.</span><span class="token keyword">match</span><span class="token punctuation">(</span><span class="token string">"Person"</span><span class="token punctuation">,</span> name<span class="token operator">=</span><span class="token string">"P1"</span><span class="token punctuation">)</span><span class="token punctuation">.</span>first<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo deploy<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<p>建立图谱</p>
+<pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token keyword">import</span> csv
+<span class="token keyword">from</span> py2neo <span class="token keyword">import</span> Graph<span class="token punctuation">,</span> Node<span class="token punctuation">,</span> Relationship<span class="token punctuation">,</span> NodeMatcher
+<span class="token keyword">import</span> py2neo
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+g <span class="token operator">=</span> Graph<span class="token punctuation">(</span><span class="token string">"http://localhost:7474/"</span><span class="token punctuation">,</span> user<span class="token operator">=</span><span class="token string">'neo4j'</span><span class="token punctuation">,</span> password<span class="token operator">=</span><span class="token string">'123456'</span><span class="token punctuation">)</span>
+<span class="token keyword">with</span> <span class="token builtin">open</span><span class="token punctuation">(</span><span class="token string">'triples.csv'</span><span class="token punctuation">,</span> <span class="token string">'r'</span><span class="token punctuation">,</span> encoding<span class="token operator">=</span><span class="token string">'utf-8'</span><span class="token punctuation">)</span> <span class="token keyword">as</span> f<span class="token punctuation">:</span>
+    reader <span class="token operator">=</span> csv<span class="token punctuation">.</span>reader<span class="token punctuation">(</span>f<span class="token punctuation">)</span>
+    <span class="token keyword">for</span> item <span class="token keyword">in</span> reader<span class="token punctuation">:</span>
+        <span class="token keyword">if</span> reader<span class="token punctuation">.</span>line_num<span class="token operator">==</span><span class="token number">1</span><span class="token punctuation">:</span>
+            <span class="token keyword">continue</span>
+        <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"当前行数"</span><span class="token punctuation">,</span> reader<span class="token punctuation">.</span>line_num<span class="token punctuation">,</span> <span class="token string">"当前内容："</span><span class="token punctuation">,</span> item<span class="token punctuation">)</span>
+        start_node <span class="token operator">=</span> Node<span class="token punctuation">(</span><span class="token string">"Person"</span><span class="token punctuation">,</span> name<span class="token operator">=</span>item<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
+        end_node <span class="token operator">=</span> Node<span class="token punctuation">(</span><span class="token string">"Person"</span><span class="token punctuation">,</span> name<span class="token operator">=</span>item<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
+        relation <span class="token operator">=</span> Relationship<span class="token punctuation">(</span>start_node<span class="token punctuation">,</span> item<span class="token punctuation">[</span><span class="token number">3</span><span class="token punctuation">]</span><span class="token punctuation">,</span> end_node<span class="token punctuation">)</span>
+        g<span class="token punctuation">.</span>merge<span class="token punctuation">(</span>start_node<span class="token punctuation">,</span> <span class="token string">"Person"</span><span class="token punctuation">,</span> <span class="token string">"name"</span><span class="token punctuation">)</span>
+        g<span class="token punctuation">.</span>merge<span class="token punctuation">(</span>end_node<span class="token punctuation">,</span> <span class="token string">"Person"</span><span class="token punctuation">,</span> <span class="token string">"name"</span><span class="token punctuation">)</span>
+        g<span class="token punctuation">.</span>merge<span class="token punctuation">(</span>relation<span class="token punctuation">,</span> <span class="token string">"Person"</span><span class="token punctuation">,</span> <span class="token string">"name"</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
+<p>数据查询</p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ MATCH <span class="token punctuation">(</span>p: Person <span class="token punctuation">{</span>name: <span class="token string">"贾宝玉"</span><span class="token punctuation">}</span><span class="token punctuation">)</span>-<span class="token punctuation">[</span>k: 丫鬟<span class="token punctuation">]</span>-<span class="token punctuation">(</span>r<span class="token punctuation">)</span> <span class="token builtin class-name">return</span> p,k,r<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<p>查询所有有关系的节点</p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ MATCH <span class="token punctuation">(</span>a<span class="token punctuation">)</span>--<span class="token punctuation">(</span><span class="token punctuation">)</span> RETURN a<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<p>删除数据库中以往的图</p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ MATCH <span class="token punctuation">(</span>n<span class="token punctuation">)</span> DETACH DELETE n<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
                 
             </div>
             <hr/>
@@ -441,7 +505,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://github.com/YJP520/YJP520.github.io/2022/12/03/hello-world/">https://github.com/YJP520/YJP520.github.io/2022/12/03/hello-world/</a>
+                    <a href="https://github.com/YJP520/YJP520.github.io/2022/12/05/neo4j-learning/">https://github.com/YJP520/YJP520.github.io/2022/12/05/neo4j-learning/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -559,13 +623,13 @@
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;Previous</div>
             <div class="card">
-                <a href="/2022/12/03/hexo-git/">
+                <a href="/2023/05/16/vscode-c-fix/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/15.jpg" class="responsive-img" alt="Hexo-Git">
+                        <img src="/medias/featureimages/22.jpg" class="responsive-img" alt="VsCode 配置 C++ 环境">
                         
-                        <span class="card-title">Hexo-Git</span>
+                        <span class="card-title">VsCode 配置 C++ 环境</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -576,7 +640,7 @@
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2022-12-03
+                            <i class="far fa-clock fa-fw icon-date"></i>2023-05-16
                         </span>
                         <span class="publish-author">
                             
@@ -593,16 +657,16 @@
         
         <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge right-badge text-color">
-                Current&nbsp;<i class="far fa-dot-circle"></i>
+                Next&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2022/12/03/hello-world/">
+                <a href="/2022/12/03/hexo-errors/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="Hello World">
+                        <img src="/medias/featureimages/19.jpg" class="responsive-img" alt="Hexo博客样式失效问题">
                         
-                        <span class="card-title">Hello World</span>
+                        <span class="card-title">Hexo博客样式失效问题</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -623,7 +687,6 @@
                         </span>
                     </div>
                 </div>
-
                 
             </div>
         </div>

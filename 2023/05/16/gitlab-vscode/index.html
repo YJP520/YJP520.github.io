@@ -4,14 +4,12 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="VsCode 配置 C++ 环境, Mandy-独恋云风星月">
-    <meta name="description" content="Welcome to YU.J.P’s Blog! 在这里你将学习到VsCode配置C++环境的方法。
-目的描述使用 VsCode 配置 C++ 编程环境。 
-配置步骤安装VScode
-自行安装 - VsCode下载地址
+    <meta name="keywords" content="GitLab-VsCode-提交步骤, Mandy-独恋云风星月">
+    <meta name="description" content="Welcome to YU.J.P’s Blog! 在这里你将学习到GitLab联合VsCode提交代码的基本用法。
+基本步骤拉取项目
+克隆原仓库
 
-安装MinGW
-">
+$ git clone https://gitlab.eduxiji.net/202311">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -23,7 +21,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>VsCode 配置 C++ 环境 | Mandy-独恋云风星月</title>
+    <title>GitLab-VsCode-提交步骤 | Mandy-独恋云风星月</title>
     <link rel="icon" type="image/png" href="/favicon.png">
     
 
@@ -58,9 +56,9 @@
 
     <script src="/libs/jquery/jquery-3.6.0.min.js"></script>
 
-<meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="Mandy-独恋云风星月" type="application/atom+xml">
-
+<meta name="generator" content="Hexo 6.3.0">
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
+<link rel="alternate" href="/atom.xml" title="Mandy-独恋云风星月" type="application/atom+xml">
 </head>
 
 
@@ -343,12 +341,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/22.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/12.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">VsCode 配置 C++ 环境</h1>
+                    <h1 class="description center-align post-title">GitLab-VsCode-提交步骤</h1>
                 </div>
             </div>
         </div>
@@ -408,123 +406,55 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>Welcome to <a target="_blank" rel="noopener" href="https://yjp520.github.io/">YU.J.P’s Blog</a>! 在这里你将学习到VsCode配置C++环境的方法。</p>
-<h2 id="目的描述"><a href="#目的描述" class="headerlink" title="目的描述"></a>目的描述</h2><p>使用 VsCode 配置 C++ 编程环境。 </p>
-<h2 id="配置步骤"><a href="#配置步骤" class="headerlink" title="配置步骤"></a>配置步骤</h2><h3 id="安装VScode"><a href="#安装VScode" class="headerlink" title="安装VScode"></a>安装VScode</h3><ul>
-<li>自行安装 - <a target="_blank" rel="noopener" href="https://code.visualstudio.com/">VsCode下载地址</a></li>
-</ul>
-<h3 id="安装MinGW"><a href="#安装MinGW" class="headerlink" title="安装MinGW"></a>安装MinGW</h3><ul>
-<li><p>下载MinGW - <a target="_blank" rel="noopener" href="https://sourceforge.net/projects/mingw-w64/files/mingw-w64/mingw-w64-release/">MinGW下载地址</a></p>
-</li>
-<li><p>MinGW压缩包解压</p>
-</li>
-<li><p>将 MinGW/bin 路径添加 环境变量 path</p>
-<ul>
-<li>命令行 输入 gcc -v 或 gcc -v 或 g++ -v 查看安装情况</li>
-</ul>
-</li>
-</ul>
-<h3 id="VsCode配置"><a href="#VsCode配置" class="headerlink" title="VsCode配置"></a>VsCode配置</h3><ul>
-<li>下载 C/C++ 插件，下载完成后重启vsCode</li>
-</ul>
-<p><img src="/image/img_7.png" alt="img.png"></p>
-<ul>
-<li><p>新建文件夹（用来放vsCode的项目）</p>
-</li>
-<li><p>在vsCode文件夹下创建一个.vscode文件夹并创建3个文件， 分别是c_cpp_properties.json，launch.json，tasks.json 。可以直接复制三个json文件，但是路径需要修改，备注的区域都需要，但其他位置都不要动。</p>
-</li>
-</ul>
-<p>c_cpp_properties.json</p>
-<pre class="line-numbers language-json" data-language="json"><code class="language-json"><span class="token punctuation">{</span>
-    <span class="token property">"configurations"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
-        <span class="token punctuation">{</span>
-          <span class="token property">"name"</span><span class="token operator">:</span> <span class="token string">"Win32"</span><span class="token punctuation">,</span>
-          <span class="token property">"includePath"</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">"${workspaceFolder}/**"</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
-          <span class="token property">"defines"</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">"_DEBUG"</span><span class="token punctuation">,</span> <span class="token string">"UNICODE"</span><span class="token punctuation">,</span> <span class="token string">"_UNICODE"</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
-          <span class="token property">"windowsSdkVersion"</span><span class="token operator">:</span> <span class="token string">"10.0.17763.0"</span><span class="token punctuation">,</span>
-          <span class="token property">"compilerPath"</span><span class="token operator">:</span> <span class="token string">"F:\\codeConfiguration\\minGW\\bin\\g++.exe"</span><span class="token punctuation">,</span>   <span class="token comment">/*修改成自己bin目录下的g++.exe，这里的路径和电脑里复制的文件目录有一点不一样，这里是两个反斜杠\\*/</span>
-          <span class="token property">"cStandard"</span><span class="token operator">:</span> <span class="token string">"c11"</span><span class="token punctuation">,</span>
-          <span class="token property">"cppStandard"</span><span class="token operator">:</span> <span class="token string">"c++17"</span><span class="token punctuation">,</span>
-          <span class="token property">"intelliSenseMode"</span><span class="token operator">:</span> <span class="token string">"${default}"</span>
-        <span class="token punctuation">}</span>
-      <span class="token punctuation">]</span><span class="token punctuation">,</span>
-      <span class="token property">"version"</span><span class="token operator">:</span> <span class="token number">4</span>
-<span class="token punctuation">}</span>
-<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+                <p>Welcome to <a target="_blank" rel="noopener" href="https://yjp520.github.io/">YU.J.P’s Blog</a>! 在这里你将学习到GitLab联合VsCode提交代码的基本用法。</p>
+<h2 id="基本步骤"><a href="#基本步骤" class="headerlink" title="基本步骤"></a>基本步骤</h2><h3 id="拉取项目"><a href="#拉取项目" class="headerlink" title="拉取项目"></a>拉取项目</h3><ol>
+<li>克隆原仓库</li>
+</ol>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ <span class="token function">git</span> clone https://gitlab.eduxiji.net/202311660201858/wgz.git<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
-<p>launch.json</p>
-<pre class="line-numbers language-json" data-language="json"><code class="language-json"><span class="token punctuation">{</span>
-    <span class="token comment">// 使用 IntelliSense 了解相关属性。 </span>
-    <span class="token comment">// 悬停以查看现有属性的描述。</span>
-    <span class="token comment">// 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387</span>
-    <span class="token property">"version"</span><span class="token operator">:</span> <span class="token string">"0.2.0"</span><span class="token punctuation">,</span>
-    <span class="token property">"configurations"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
-        <span class="token punctuation">{</span>
-            <span class="token property">"name"</span><span class="token operator">:</span> <span class="token string">"g++.exe build and debug active file"</span><span class="token punctuation">,</span>
-            <span class="token property">"type"</span><span class="token operator">:</span> <span class="token string">"cppdbg"</span><span class="token punctuation">,</span>
-            <span class="token property">"request"</span><span class="token operator">:</span> <span class="token string">"launch"</span><span class="token punctuation">,</span>
-            <span class="token property">"program"</span><span class="token operator">:</span> <span class="token string">"${fileDirname}\\${fileBasenameNoExtension}.exe"</span><span class="token punctuation">,</span>
-            <span class="token property">"args"</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
-            <span class="token property">"stopAtEntry"</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
-            <span class="token property">"cwd"</span><span class="token operator">:</span> <span class="token string">"${workspaceFolder}"</span><span class="token punctuation">,</span>
-            <span class="token property">"environment"</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
-            <span class="token property">"externalConsole"</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
-            <span class="token property">"MIMode"</span><span class="token operator">:</span> <span class="token string">"gdb"</span><span class="token punctuation">,</span>
-            <span class="token property">"miDebuggerPath"</span><span class="token operator">:</span> <span class="token string">"F:\\codeConfiguration\\MinGW\\bin\\gdb.exe"</span><span class="token punctuation">,</span>		<span class="token comment">/*修改成自己bin目录下的gdb.exe，这里的路径和电脑里复制的文件目录有一点不一样，这里是两个反斜杠\\*/</span>
-            <span class="token property">"setupCommands"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
-                <span class="token punctuation">{</span>
-                    <span class="token property">"description"</span><span class="token operator">:</span> <span class="token string">"为 gdb 启用整齐打印"</span><span class="token punctuation">,</span>
-                    <span class="token property">"text"</span><span class="token operator">:</span> <span class="token string">"-enable-pretty-printing"</span><span class="token punctuation">,</span>
-                    <span class="token property">"ignoreFailures"</span><span class="token operator">:</span> <span class="token boolean">true</span>
-                <span class="token punctuation">}</span>
-            <span class="token punctuation">]</span><span class="token punctuation">,</span>
-            <span class="token property">"preLaunchTask"</span><span class="token operator">:</span> <span class="token string">"task g++"</span>
-        <span class="token punctuation">}</span>
-    <span class="token punctuation">]</span>
-<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<ol start="2">
+<li>使用 Vscode 打开项目文件目录</li>
+</ol>
+<h3 id="Vscode-配置Git"><a href="#Vscode-配置Git" class="headerlink" title="Vscode 配置Git"></a>Vscode 配置Git</h3><ol>
+<li>找到本机的 git.exe 路径，如命令行输入</li>
+</ol>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ where <span class="token function">git</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
-<p>tasks.json</p>
-<pre class="line-numbers language-json" data-language="json"><code class="language-json"><span class="token punctuation">{</span>
-    <span class="token comment">// See https://go.microsoft.com/fwlink/?LinkId=733558 </span>
-    <span class="token comment">// for the documentation about the tasks.json format</span>
-    <span class="token property">"version"</span><span class="token operator">:</span> <span class="token string">"2.0.0"</span><span class="token punctuation">,</span>
-    <span class="token property">"tasks"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
-        <span class="token punctuation">{</span>
-        <span class="token property">"type"</span><span class="token operator">:</span> <span class="token string">"shell"</span><span class="token punctuation">,</span>
-        <span class="token property">"label"</span><span class="token operator">:</span> <span class="token string">"task g++"</span><span class="token punctuation">,</span>
-        <span class="token property">"command"</span><span class="token operator">:</span> <span class="token string">"F:\\codeConfiguration\\MinGW\\bin\\g++.exe"</span><span class="token punctuation">,</span>	<span class="token comment">/*修改成自己bin目录下的g++.exe，这里的路径和电脑里复制的文件目录有一点不一样，这里是两个反斜杠\\*/</span>
-        <span class="token property">"args"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
-            <span class="token string">"-g"</span><span class="token punctuation">,</span>
-            <span class="token string">"${file}"</span><span class="token punctuation">,</span>
-            <span class="token string">"-o"</span><span class="token punctuation">,</span>
-            <span class="token string">"${fileDirname}\\${fileBasenameNoExtension}.exe"</span><span class="token punctuation">,</span>
-            <span class="token string">"-I"</span><span class="token punctuation">,</span>
-            <span class="token string">"F:\\codeProject\\vsCode"</span><span class="token punctuation">,</span>      <span class="token comment">/*修改成自己放c/c++项目的文件夹，这里的路径和电脑里复制的文件目录有一点不一样，这里是两个反斜杠\\*/</span>
-            <span class="token string">"-std=c++17"</span>
-        <span class="token punctuation">]</span><span class="token punctuation">,</span>
-        <span class="token property">"options"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
-            <span class="token property">"cwd"</span><span class="token operator">:</span> <span class="token string">"F:\\codeConfiguration\\MinGW\\bin"</span>	<span class="token comment">/*修改成自己bin目录，这里的路径和电脑里复制的文件目录有一点不一样，这里是两个反斜杠\\*/</span>
-        <span class="token punctuation">}</span><span class="token punctuation">,</span>
-        <span class="token property">"problemMatcher"</span><span class="token operator">:</span><span class="token punctuation">[</span>
-            <span class="token string">"$gcc"</span>
-        <span class="token punctuation">]</span><span class="token punctuation">,</span>
-        <span class="token property">"group"</span><span class="token operator">:</span> <span class="token string">"build"</span><span class="token punctuation">,</span>
-        
-        <span class="token punctuation">}</span>
-    <span class="token punctuation">]</span>
-<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p><img src="/image/img_10.png" alt="img.png"></p>
+<ol start="2">
+<li>Vscode 找到 Git 配置，点击 Edit in settings.json</li>
+</ol>
+<p><img src="/image/img_8.png" alt="img.png"></p>
+<ol start="3">
+<li>在”git-path”处加入git路径</li>
+</ol>
+<p><img src="/image/img_9.png" alt="img.png"></p>
+<h3 id="创建个人分支"><a href="#创建个人分支" class="headerlink" title="创建个人分支"></a>创建个人分支</h3><ol>
+<li>点击分支目录，添加自己的分支</li>
+</ol>
+<p><img src="/image/img_11.png" alt="img.png"></p>
+<ol start="2">
+<li>终端或命令行使用命令 添加账户及邮箱</li>
+</ol>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token function">git</span> config <span class="token parameter variable">--global</span> user.name <span class="token string">"Your Name"</span>
+<span class="token function">git</span> config <span class="token parameter variable">--global</span> user.email <span class="token string">"youremail@yourdomain.com"</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
 
-<h3 id="测试"><a href="#测试" class="headerlink" title="测试"></a>测试</h3><ul>
-<li>创建一个文件夹,创建main.cpp，然后按F5运行</li>
-</ul>
-<pre class="line-numbers language-cpp" data-language="cpp"><code class="language-cpp"><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;iostream&gt;</span></span>
-<span class="token keyword">using</span> <span class="token keyword">namespace</span> std<span class="token punctuation">;</span>
-
-<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-    cout <span class="token operator">&lt;&lt;</span> <span class="token string">"Hello World."</span> <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span>
-    <span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
-<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
+<ol start="3">
+<li>看个人情况进行项目构建，代码添加</li>
+</ol>
+<p><img src="/image/img_12.png" alt="img.png"></p>
+<ol start="4">
+<li>点击加号,然后点击 commit</li>
+</ol>
+<p><img src="/image/img_13.png" alt="img.png"></p>
+<ol start="5">
+<li>添加提交日志，保存</li>
+</ol>
+<p><img src="/image/img_14.png" alt="img.png"></p>
+<ol start="6">
+<li>点击右上角勾勾 上传 push,然后点击以下按钮，完成上传</li>
+</ol>
+<p><img src="/image/img_15.png" alt="img.png"></p>
 
                 
             </div>
@@ -551,7 +481,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://github.com/YJP520/YJP520.github.io/2023/05/16/vscode-pei-zhi-c/">https://github.com/YJP520/YJP520.github.io/2023/05/16/vscode-pei-zhi-c/</a>
+                    <a href="https://github.com/YJP520/YJP520.github.io/2023/05/16/gitlab-vscode/">https://github.com/YJP520/YJP520.github.io/2023/05/16/gitlab-vscode/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -669,13 +599,13 @@
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;Previous</div>
             <div class="card">
-                <a href="/2023/05/16/gitlab-vscode-ti-jiao/">
+                <a href="/2023/05/17/vscode-c-solusion/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="GitLab-VsCode-提交步骤">
+                        <img src="/medias/featureimages/4.jpg" class="responsive-img" alt="VsCode-C++问题集合">
                         
-                        <span class="card-title">GitLab-VsCode-提交步骤</span>
+                        <span class="card-title">VsCode-C++问题集合</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -686,7 +616,7 @@
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2023-05-16
+                            <i class="far fa-clock fa-fw icon-date"></i>2023-05-17
                         </span>
                         <span class="publish-author">
                             
@@ -706,13 +636,13 @@
                 Next&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2022/12/05/neo4j/">
+                <a href="/2023/05/16/vscode-c-fix/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/23.jpg" class="responsive-img" alt="neo4j-图数据库使用教程">
+                        <img src="/medias/featureimages/22.jpg" class="responsive-img" alt="VsCode 配置 C++ 环境">
                         
-                        <span class="card-title">neo4j-图数据库使用教程</span>
+                        <span class="card-title">VsCode 配置 C++ 环境</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -723,7 +653,7 @@
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2022-12-05
+                                <i class="far fa-clock fa-fw icon-date"></i>2023-05-16
                             </span>
                         <span class="publish-author">
                             

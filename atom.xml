@@ -62,8 +62,8 @@
   
   <entry>
     <title>VsCode-C++问题集合</title>
-    <link href="https://github.com/YJP520/YJP520.github.io/2023/05/17/vscode-c-wen-ti-ji-he/"/>
-    <id>https://github.com/YJP520/YJP520.github.io/2023/05/17/vscode-c-wen-ti-ji-he/</id>
+    <link href="https://github.com/YJP520/YJP520.github.io/2023/05/17/vscode-c-solusion/"/>
+    <id>https://github.com/YJP520/YJP520.github.io/2023/05/17/vscode-c-solusion/</id>
     <published>2023-05-17T06:47:46.026Z</published>
     <updated>2023-05-17T07:00:23.648Z</updated>
     
@@ -84,8 +84,8 @@
   
   <entry>
     <title>GitLab-VsCode-提交步骤</title>
-    <link href="https://github.com/YJP520/YJP520.github.io/2023/05/16/gitlab-vscode-ti-jiao/"/>
-    <id>https://github.com/YJP520/YJP520.github.io/2023/05/16/gitlab-vscode-ti-jiao/</id>
+    <link href="https://github.com/YJP520/YJP520.github.io/2023/05/16/gitlab-vscode/"/>
+    <id>https://github.com/YJP520/YJP520.github.io/2023/05/16/gitlab-vscode/</id>
     <published>2023-05-16T15:09:55.967Z</published>
     <updated>2023-05-17T06:49:28.193Z</updated>
     
@@ -106,8 +106,8 @@
   
   <entry>
     <title>VsCode 配置 C++ 环境</title>
-    <link href="https://github.com/YJP520/YJP520.github.io/2023/05/16/vscode-pei-zhi-c/"/>
-    <id>https://github.com/YJP520/YJP520.github.io/2023/05/16/vscode-pei-zhi-c/</id>
+    <link href="https://github.com/YJP520/YJP520.github.io/2023/05/16/vscode-c-fix/"/>
+    <id>https://github.com/YJP520/YJP520.github.io/2023/05/16/vscode-c-fix/</id>
     <published>2023-05-16T13:24:12.909Z</published>
     <updated>2023-05-16T14:21:09.196Z</updated>
     
@@ -128,8 +128,8 @@
   
   <entry>
     <title>neo4j-图数据库使用教程</title>
-    <link href="https://github.com/YJP520/YJP520.github.io/2022/12/05/neo4j/"/>
-    <id>https://github.com/YJP520/YJP520.github.io/2022/12/05/neo4j/</id>
+    <link href="https://github.com/YJP520/YJP520.github.io/2022/12/05/neo4j-learning/"/>
+    <id>https://github.com/YJP520/YJP520.github.io/2022/12/05/neo4j-learning/</id>
     <published>2022-12-04T16:52:53.936Z</published>
     <updated>2022-12-04T17:04:19.702Z</updated>
     
@@ -151,8 +151,8 @@
   
   <entry>
     <title>Hexo博客样式失效问题</title>
-    <link href="https://github.com/YJP520/YJP520.github.io/2022/12/03/hexo-bo-ke-yang-shi-shi-xiao-wen-ti/"/>
-    <id>https://github.com/YJP520/YJP520.github.io/2022/12/03/hexo-bo-ke-yang-shi-shi-xiao-wen-ti/</id>
+    <link href="https://github.com/YJP520/YJP520.github.io/2022/12/03/hexo-errors/"/>
+    <id>https://github.com/YJP520/YJP520.github.io/2022/12/03/hexo-errors/</id>
     <published>2022-12-03T06:46:45.158Z</published>
     <updated>2022-12-04T17:03:42.077Z</updated>
     
@@ -172,11 +172,11 @@
   </entry>
   
   <entry>
-    <title>Hexo-Git</title>
+    <title>Hexo-Git-基本操作</title>
     <link href="https://github.com/YJP520/YJP520.github.io/2022/12/03/hexo-git/"/>
     <id>https://github.com/YJP520/YJP520.github.io/2022/12/03/hexo-git/</id>
     <published>2022-12-03T06:37:34.634Z</published>
-    <updated>2023-05-16T14:19:41.345Z</updated>
+    <updated>2023-05-20T16:39:24.306Z</updated>
     
     
       
@@ -194,11 +194,11 @@
   </entry>
   
   <entry>
-    <title>Hello World</title>
-    <link href="https://github.com/YJP520/YJP520.github.io/2022/12/03/hello-world/"/>
-    <id>https://github.com/YJP520/YJP520.github.io/2022/12/03/hello-world/</id>
+    <title>Hello Hexo 开始个人博客</title>
+    <link href="https://github.com/YJP520/YJP520.github.io/2022/12/03/hello-hexo/"/>
+    <id>https://github.com/YJP520/YJP520.github.io/2022/12/03/hello-hexo/</id>
     <published>2022-12-03T05:21:08.249Z</published>
-    <updated>2022-12-03T05:21:08.249Z</updated>
+    <updated>2023-05-20T16:38:59.304Z</updated>
     
     
       

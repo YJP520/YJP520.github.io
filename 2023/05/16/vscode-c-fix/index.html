@@ -4,10 +4,14 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="Hexo博客样式失效问题, Mandy-独恋云风星月">
-    <meta name="description" content="Welcome to YU.J.P’s Blog! 在这里你将学习到Hexo博客搭建过程中常见的css失效问题解决办法。
-问题描述Hexo本地效果正常，部署后丢失css样式
-添加设置问题修改文件_config.yml下的URL项。根路径ro">
+    <meta name="keywords" content="VsCode 配置 C++ 环境, Mandy-独恋云风星月">
+    <meta name="description" content="Welcome to YU.J.P’s Blog! 在这里你将学习到VsCode配置C++环境的方法。
+目的描述使用 VsCode 配置 C++ 编程环境。 
+配置步骤安装VScode
+自行安装 - VsCode下载地址
+
+安装MinGW
+">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -19,7 +23,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>Hexo博客样式失效问题 | Mandy-独恋云风星月</title>
+    <title>VsCode 配置 C++ 环境 | Mandy-独恋云风星月</title>
     <link rel="icon" type="image/png" href="/favicon.png">
     
 
@@ -54,9 +58,9 @@
 
     <script src="/libs/jquery/jquery-3.6.0.min.js"></script>
 
-<meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="Mandy-独恋云风星月" type="application/atom+xml">
-
+<meta name="generator" content="Hexo 6.3.0">
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
+<link rel="alternate" href="/atom.xml" title="Mandy-独恋云风星月" type="application/atom+xml">
 </head>
 
 
@@ -339,12 +343,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/19.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/22.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">Hexo博客样式失效问题</h1>
+                    <h1 class="description center-align post-title">VsCode 配置 C++ 环境</h1>
                 </div>
             </div>
         </div>
@@ -380,7 +384,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>Publish Date:&nbsp;&nbsp;
-                    2022-12-03
+                    2023-05-16
                 </div>
                 
 
@@ -404,13 +408,124 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>Welcome to <a target="_blank" rel="noopener" href="https://yjp520.github.io/">YU.J.P’s Blog</a>! 在这里你将学习到Hexo博客搭建过程中常见的css失效问题解决办法。</p>
-<h3 id="问题描述"><a href="#问题描述" class="headerlink" title="问题描述"></a>问题描述</h3><p>Hexo本地效果正常，部署后丢失css样式</p>
-<h3 id="添加设置问题"><a href="#添加设置问题" class="headerlink" title="添加设置问题"></a>添加设置问题</h3><p>修改文件_config.yml下的URL项。根路径root需要好好考虑。</p>
-<pre class="line-numbers language-yaml" data-language="yaml"><code class="language-yaml"><span class="token comment"># URL</span>
-<span class="token comment">## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'</span>
-<span class="token key atrule">url</span><span class="token punctuation">:</span> https<span class="token punctuation">:</span>//github.com/YJP520/YJP520.github.io
-<span class="token key atrule">root</span><span class="token punctuation">:</span> /<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+                <p>Welcome to <a target="_blank" rel="noopener" href="https://yjp520.github.io/">YU.J.P’s Blog</a>! 在这里你将学习到VsCode配置C++环境的方法。</p>
+<h2 id="目的描述"><a href="#目的描述" class="headerlink" title="目的描述"></a>目的描述</h2><p>使用 VsCode 配置 C++ 编程环境。 </p>
+<h2 id="配置步骤"><a href="#配置步骤" class="headerlink" title="配置步骤"></a>配置步骤</h2><h3 id="安装VScode"><a href="#安装VScode" class="headerlink" title="安装VScode"></a>安装VScode</h3><ul>
+<li>自行安装 - <a target="_blank" rel="noopener" href="https://code.visualstudio.com/">VsCode下载地址</a></li>
+</ul>
+<h3 id="安装MinGW"><a href="#安装MinGW" class="headerlink" title="安装MinGW"></a>安装MinGW</h3><ul>
+<li><p>下载MinGW - <a target="_blank" rel="noopener" href="https://sourceforge.net/projects/mingw-w64/files/mingw-w64/mingw-w64-release/">MinGW下载地址</a></p>
+</li>
+<li><p>MinGW压缩包解压</p>
+</li>
+<li><p>将 MinGW/bin 路径添加 环境变量 path</p>
+<ul>
+<li>命令行 输入 gcc -v 或 gcc -v 或 g++ -v 查看安装情况</li>
+</ul>
+</li>
+</ul>
+<h3 id="VsCode配置"><a href="#VsCode配置" class="headerlink" title="VsCode配置"></a>VsCode配置</h3><ul>
+<li>下载 C/C++ 插件，下载完成后重启vsCode</li>
+</ul>
+<p><img src="/image/img_7.png" alt="img.png"></p>
+<ul>
+<li><p>新建文件夹（用来放vsCode的项目）</p>
+</li>
+<li><p>在vsCode文件夹下创建一个.vscode文件夹并创建3个文件， 分别是c_cpp_properties.json，launch.json，tasks.json 。可以直接复制三个json文件，但是路径需要修改，备注的区域都需要，但其他位置都不要动。</p>
+</li>
+</ul>
+<p>c_cpp_properties.json</p>
+<pre class="line-numbers language-json" data-language="json"><code class="language-json"><span class="token punctuation">{</span>
+    <span class="token property">"configurations"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+        <span class="token punctuation">{</span>
+          <span class="token property">"name"</span><span class="token operator">:</span> <span class="token string">"Win32"</span><span class="token punctuation">,</span>
+          <span class="token property">"includePath"</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">"${workspaceFolder}/**"</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+          <span class="token property">"defines"</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">"_DEBUG"</span><span class="token punctuation">,</span> <span class="token string">"UNICODE"</span><span class="token punctuation">,</span> <span class="token string">"_UNICODE"</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+          <span class="token property">"windowsSdkVersion"</span><span class="token operator">:</span> <span class="token string">"10.0.17763.0"</span><span class="token punctuation">,</span>
+          <span class="token property">"compilerPath"</span><span class="token operator">:</span> <span class="token string">"F:\\codeConfiguration\\minGW\\bin\\g++.exe"</span><span class="token punctuation">,</span>   <span class="token comment">/*修改成自己bin目录下的g++.exe，这里的路径和电脑里复制的文件目录有一点不一样，这里是两个反斜杠\\*/</span>
+          <span class="token property">"cStandard"</span><span class="token operator">:</span> <span class="token string">"c11"</span><span class="token punctuation">,</span>
+          <span class="token property">"cppStandard"</span><span class="token operator">:</span> <span class="token string">"c++17"</span><span class="token punctuation">,</span>
+          <span class="token property">"intelliSenseMode"</span><span class="token operator">:</span> <span class="token string">"${default}"</span>
+        <span class="token punctuation">}</span>
+      <span class="token punctuation">]</span><span class="token punctuation">,</span>
+      <span class="token property">"version"</span><span class="token operator">:</span> <span class="token number">4</span>
+<span class="token punctuation">}</span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p>launch.json</p>
+<pre class="line-numbers language-json" data-language="json"><code class="language-json"><span class="token punctuation">{</span>
+    <span class="token comment">// 使用 IntelliSense 了解相关属性。 </span>
+    <span class="token comment">// 悬停以查看现有属性的描述。</span>
+    <span class="token comment">// 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387</span>
+    <span class="token property">"version"</span><span class="token operator">:</span> <span class="token string">"0.2.0"</span><span class="token punctuation">,</span>
+    <span class="token property">"configurations"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+        <span class="token punctuation">{</span>
+            <span class="token property">"name"</span><span class="token operator">:</span> <span class="token string">"g++.exe build and debug active file"</span><span class="token punctuation">,</span>
+            <span class="token property">"type"</span><span class="token operator">:</span> <span class="token string">"cppdbg"</span><span class="token punctuation">,</span>
+            <span class="token property">"request"</span><span class="token operator">:</span> <span class="token string">"launch"</span><span class="token punctuation">,</span>
+            <span class="token property">"program"</span><span class="token operator">:</span> <span class="token string">"${fileDirname}\\${fileBasenameNoExtension}.exe"</span><span class="token punctuation">,</span>
+            <span class="token property">"args"</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+            <span class="token property">"stopAtEntry"</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+            <span class="token property">"cwd"</span><span class="token operator">:</span> <span class="token string">"${workspaceFolder}"</span><span class="token punctuation">,</span>
+            <span class="token property">"environment"</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+            <span class="token property">"externalConsole"</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+            <span class="token property">"MIMode"</span><span class="token operator">:</span> <span class="token string">"gdb"</span><span class="token punctuation">,</span>
+            <span class="token property">"miDebuggerPath"</span><span class="token operator">:</span> <span class="token string">"F:\\codeConfiguration\\MinGW\\bin\\gdb.exe"</span><span class="token punctuation">,</span>		<span class="token comment">/*修改成自己bin目录下的gdb.exe，这里的路径和电脑里复制的文件目录有一点不一样，这里是两个反斜杠\\*/</span>
+            <span class="token property">"setupCommands"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+                <span class="token punctuation">{</span>
+                    <span class="token property">"description"</span><span class="token operator">:</span> <span class="token string">"为 gdb 启用整齐打印"</span><span class="token punctuation">,</span>
+                    <span class="token property">"text"</span><span class="token operator">:</span> <span class="token string">"-enable-pretty-printing"</span><span class="token punctuation">,</span>
+                    <span class="token property">"ignoreFailures"</span><span class="token operator">:</span> <span class="token boolean">true</span>
+                <span class="token punctuation">}</span>
+            <span class="token punctuation">]</span><span class="token punctuation">,</span>
+            <span class="token property">"preLaunchTask"</span><span class="token operator">:</span> <span class="token string">"task g++"</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">]</span>
+<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p>tasks.json</p>
+<pre class="line-numbers language-json" data-language="json"><code class="language-json"><span class="token punctuation">{</span>
+    <span class="token comment">// See https://go.microsoft.com/fwlink/?LinkId=733558 </span>
+    <span class="token comment">// for the documentation about the tasks.json format</span>
+    <span class="token property">"version"</span><span class="token operator">:</span> <span class="token string">"2.0.0"</span><span class="token punctuation">,</span>
+    <span class="token property">"tasks"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+        <span class="token punctuation">{</span>
+        <span class="token property">"type"</span><span class="token operator">:</span> <span class="token string">"shell"</span><span class="token punctuation">,</span>
+        <span class="token property">"label"</span><span class="token operator">:</span> <span class="token string">"task g++"</span><span class="token punctuation">,</span>
+        <span class="token property">"command"</span><span class="token operator">:</span> <span class="token string">"F:\\codeConfiguration\\MinGW\\bin\\g++.exe"</span><span class="token punctuation">,</span>	<span class="token comment">/*修改成自己bin目录下的g++.exe，这里的路径和电脑里复制的文件目录有一点不一样，这里是两个反斜杠\\*/</span>
+        <span class="token property">"args"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+            <span class="token string">"-g"</span><span class="token punctuation">,</span>
+            <span class="token string">"${file}"</span><span class="token punctuation">,</span>
+            <span class="token string">"-o"</span><span class="token punctuation">,</span>
+            <span class="token string">"${fileDirname}\\${fileBasenameNoExtension}.exe"</span><span class="token punctuation">,</span>
+            <span class="token string">"-I"</span><span class="token punctuation">,</span>
+            <span class="token string">"F:\\codeProject\\vsCode"</span><span class="token punctuation">,</span>      <span class="token comment">/*修改成自己放c/c++项目的文件夹，这里的路径和电脑里复制的文件目录有一点不一样，这里是两个反斜杠\\*/</span>
+            <span class="token string">"-std=c++17"</span>
+        <span class="token punctuation">]</span><span class="token punctuation">,</span>
+        <span class="token property">"options"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+            <span class="token property">"cwd"</span><span class="token operator">:</span> <span class="token string">"F:\\codeConfiguration\\MinGW\\bin"</span>	<span class="token comment">/*修改成自己bin目录，这里的路径和电脑里复制的文件目录有一点不一样，这里是两个反斜杠\\*/</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token property">"problemMatcher"</span><span class="token operator">:</span><span class="token punctuation">[</span>
+            <span class="token string">"$gcc"</span>
+        <span class="token punctuation">]</span><span class="token punctuation">,</span>
+        <span class="token property">"group"</span><span class="token operator">:</span> <span class="token string">"build"</span><span class="token punctuation">,</span>
+        
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">]</span>
+<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<h3 id="测试"><a href="#测试" class="headerlink" title="测试"></a>测试</h3><ul>
+<li>创建一个文件夹,创建main.cpp，然后按F5运行</li>
+</ul>
+<pre class="line-numbers language-cpp" data-language="cpp"><code class="language-cpp"><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;iostream&gt;</span></span>
+<span class="token keyword">using</span> <span class="token keyword">namespace</span> std<span class="token punctuation">;</span>
+
+<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    cout <span class="token operator">&lt;&lt;</span> <span class="token string">"Hello World."</span> <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span>
+    <span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+
                 
             </div>
             <hr/>
@@ -436,7 +551,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://github.com/YJP520/YJP520.github.io/2022/12/03/hexo-bo-ke-yang-shi-shi-xiao-wen-ti/">https://github.com/YJP520/YJP520.github.io/2022/12/03/hexo-bo-ke-yang-shi-shi-xiao-wen-ti/</a>
+                    <a href="https://github.com/YJP520/YJP520.github.io/2023/05/16/vscode-c-fix/">https://github.com/YJP520/YJP520.github.io/2023/05/16/vscode-c-fix/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -554,13 +669,13 @@
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;Previous</div>
             <div class="card">
-                <a href="/2022/12/05/neo4j/">
+                <a href="/2023/05/16/gitlab-vscode/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/23.jpg" class="responsive-img" alt="neo4j-图数据库使用教程">
+                        <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="GitLab-VsCode-提交步骤">
                         
-                        <span class="card-title">neo4j-图数据库使用教程</span>
+                        <span class="card-title">GitLab-VsCode-提交步骤</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -571,7 +686,7 @@
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2022-12-05
+                            <i class="far fa-clock fa-fw icon-date"></i>2023-05-16
                         </span>
                         <span class="publish-author">
                             
@@ -591,13 +706,13 @@
                 Next&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2022/12/03/hexo-git/">
+                <a href="/2022/12/05/neo4j-learning/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/15.jpg" class="responsive-img" alt="Hexo-Git">
+                        <img src="/medias/featureimages/23.jpg" class="responsive-img" alt="neo4j-图数据库使用教程">
                         
-                        <span class="card-title">Hexo-Git</span>
+                        <span class="card-title">neo4j-图数据库使用教程</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -608,7 +723,7 @@
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2022-12-03
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-12-05
                             </span>
                         <span class="publish-author">
                             
