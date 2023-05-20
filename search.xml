@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>一些有用的资源合集</title>
+      <link href="/2023/05/20/wonderful-source/"/>
+      <url>/2023/05/20/wonderful-source/</url>
+      
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://yjp520.github.io/">YU.J.P’s Blog</a>! 在这里你将探索到很多非常具有价值的资源。</p><h2 id="高校联合资源库"><a href="#高校联合资源库" class="headerlink" title="高校联合资源库"></a>高校联合资源库</h2><h3 id="编译原理三大书籍"><a href="#编译原理三大书籍" class="headerlink" title="编译原理三大书籍"></a>编译原理三大书籍</h3><ol><li><p>龙书（Dragon book）<br>英文名：Compilers: Principles,Techniques,and Tools<br>作者：Alfred V.Aho,Ravi Sethi,Jeffrey D.Ullman<br>中文名：编译原理技术和工具</p></li><li><p>虎书（Tiger book）<br>英文名：Modern Compiler Implementation in C<br>作者：Andrew W.Appel,with Jens Palsberg<br>中文名：现代编译原理-C语言描述 </p></li><li><p>鲸书（Whale book）<br>英文名：Advanced Compiler Design and Implementation<br>作者：Steven S.Muchnick<br>中文名：高级编译器设计与实现</p></li></ol><h3 id="资源网站自寻查找"><a href="#资源网站自寻查找" class="headerlink" title="资源网站自寻查找"></a>资源网站自寻查找</h3><ul><li><a href="https://github.com/lib-pku/libpku">北京大学课程资料整理</a></li><li><a href="https://github.com/QSCTech/zju-icicles">浙江大学课程攻略共享计划</a></li><li><a href="https://github.com/PKUanonym/REKCARC-TSC-UHT">清华大学计算机系课程攻略</a></li><li><a href="https://github.com/PKUanonym/REKCARC-TSC-UHT">中国科学技术大学课程资源</a></li><li><a href="https://github.com/CoolPhilChen/SJTU-Courses/">上海交通大学课程分享</a></li></ul><h2 id="其他资源"><a href="#其他资源" class="headerlink" title="其他资源"></a>其他资源</h2><ul><li><a href="https://yjp520.github.io/">敬请期待</a></li></ul>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>VsCode-C++问题集合</title>
       <link href="/2023/05/17/vscode-c-wen-ti-ji-he/"/>
       <url>/2023/05/17/vscode-c-wen-ti-ji-he/</url>
