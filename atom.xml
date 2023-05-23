@@ -6,7 +6,7 @@
   <link href="https://github.com/YJP520/YJP520.github.io/atom.xml" rel="self"/>
   
   <link href="https://github.com/YJP520/YJP520.github.io/"/>
-  <updated>2023-05-20T16:35:09.929Z</updated>
+  <updated>2023-05-23T00:44:03.102Z</updated>
   <id>https://github.com/YJP520/YJP520.github.io/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Linux-cmake环境配置</title>
+    <link href="https://github.com/YJP520/YJP520.github.io/2023/05/23/linux-environment/"/>
+    <id>https://github.com/YJP520/YJP520.github.io/2023/05/23/linux-environment/</id>
+    <published>2023-05-23T00:25:48.928Z</published>
+    <updated>2023-05-23T00:44:03.102Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://yjp520.github.io/&quot;&gt;YU.J.P’s Blog&lt;/a&gt;! 在这里你将学习到Linux关于cmake的环境配置。&lt;/p&gt;
+&lt;h3 id=&quot;安装虚拟机&quot;&gt;&lt;a href=&quot;#安装虚拟机&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>ANTLR-自动词法语法分析器</title>

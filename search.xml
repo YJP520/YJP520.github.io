@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>Linux-cmake环境配置</title>
+      <link href="/2023/05/23/linux-environment/"/>
+      <url>/2023/05/23/linux-environment/</url>
+      
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://yjp520.github.io/">YU.J.P’s Blog</a>! 在这里你将学习到Linux关于cmake的环境配置。</p><h3 id="安装虚拟机"><a href="#安装虚拟机" class="headerlink" title="安装虚拟机"></a>安装虚拟机</h3><p>安装ubuntu镜像(本人使用 <strong>ubuntu 18.04</strong>)</p><h3 id="更新g"><a href="#更新g" class="headerlink" title="更新g++"></a>更新g++</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token function">sudo</span> <span class="token function">apt-get</span> <span class="token function">install</span> g++ <span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h3 id="安装make"><a href="#安装make" class="headerlink" title="安装make"></a>安装make</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token function">sudo</span> <span class="token function">apt-get</span> <span class="token function">install</span> build-essential<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h3 id="安装cmake"><a href="#安装cmake" class="headerlink" title="安装cmake"></a>安装cmake</h3><p>先检查是否有cmake。</p><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token function">which</span> cmake<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p><a href="https://cmake.org/download/">下载cmake安装包</a> 直接点击下载，或者复制下载链接，使用wget下载。</p><p>解压cmake，在cmake源码所在文件夹中打开命令终端，解压文件。</p><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token function">tar</span> <span class="token parameter variable">-zxvf</span> cmake-3.23.0-rc1.tar.gz <span class="token punctuation">[</span>对应自己下载的cmake<span class="token punctuation">]</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>进入解压后的cmake文件夹中，进行检查。比如上面的cmake-3.23.0-rc1.tar.gz经过解压后，会有一个cmake-3.23.0-rc1文件夹，进入这个文件夹。</p><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token builtin class-name">cd</span> cmake-3.23.0-rc1./bootstrap<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><p>可能出错：</p><ol><li>对于ubuntu安装openssl系统：</li></ol><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token function">sudo</span> <span class="token function">apt-get</span> <span class="token function">install</span> libssl-dev<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><ol start="2"><li>未安装make</li></ol><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token function">sudo</span> <span class="token function">apt-get</span> <span class="token function">install</span> build-essential<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>若没有出错，编译构造，安装</p><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token function">make</span><span class="token function">sudo</span> <span class="token function">make</span> <span class="token function">install</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><p>检查cmake版本</p><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">cmake <span class="token parameter variable">--version</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>ANTLR-自动词法语法分析器</title>
       <link href="/2023/05/21/antlr-learning/"/>
       <url>/2023/05/21/antlr-learning/</url>
