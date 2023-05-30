@@ -6,7 +6,7 @@
   <link href="https://github.com/YJP520/YJP520.github.io/atom.xml" rel="self"/>
   
   <link href="https://github.com/YJP520/YJP520.github.io/"/>
-  <updated>2023-05-30T05:10:11.542Z</updated>
+  <updated>2023-05-30T05:31:32.667Z</updated>
   <id>https://github.com/YJP520/YJP520.github.io/</id>
   
   <author>
@@ -17,11 +17,33 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Windows - clang LLVM 环境配置</title>
+    <link href="https://github.com/YJP520/YJP520.github.io/2023/05/30/clang-learning/"/>
+    <id>https://github.com/YJP520/YJP520.github.io/2023/05/30/clang-learning/</id>
+    <published>2023-05-30T05:15:31.265Z</published>
+    <updated>2023-05-30T05:31:32.667Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://yjp520.github.io/&quot;&gt;YU.J.P’s Blog&lt;/a&gt;! 在这里你将学习到关于&lt;code&gt;clang LLVM&lt;/code&gt;的环境配置。&lt;/p&gt;
+&lt;h3 id=&quot;安装clang&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>Windows - cmake环境配置</title>
     <link href="https://github.com/YJP520/YJP520.github.io/2023/05/30/cmake-learning/"/>
     <id>https://github.com/YJP520/YJP520.github.io/2023/05/30/cmake-learning/</id>
     <published>2023-05-30T04:55:51.792Z</published>
-    <updated>2023-05-30T05:10:11.542Z</updated>
+    <updated>2023-05-30T05:28:29.145Z</updated>
     
     
       
