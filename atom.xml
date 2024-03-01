@@ -6,7 +6,7 @@
   <link href="https://github.com/YJP520/YJP520.github.io/atom.xml" rel="self"/>
   
   <link href="https://github.com/YJP520/YJP520.github.io/"/>
-  <updated>2023-05-30T05:31:32.667Z</updated>
+  <updated>2024-03-01T07:48:01.976Z</updated>
   <id>https://github.com/YJP520/YJP520.github.io/</id>
   
   <author>
@@ -17,11 +17,33 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>2024 嵌入式相关要求归档</title>
+    <link href="https://github.com/YJP520/YJP520.github.io/2024/03/01/qian-ru-shi-yao-qiu-gui-dang/"/>
+    <id>https://github.com/YJP520/YJP520.github.io/2024/03/01/qian-ru-shi-yao-qiu-gui-dang/</id>
+    <published>2024-03-01T07:45:41.012Z</published>
+    <updated>2024-03-01T07:48:01.976Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://yjp520.github.io/&quot;&gt;YU.J.P’s Blog&lt;/a&gt;! 在这里你将学习到嵌入式相关知识。&lt;/p&gt;
+&lt;h2 id=&quot;1-C-x2F-C&quot;&gt;&lt;a href=&quot;#1-C-x2F-C&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>Windows - clang LLVM 环境配置</title>
     <link href="https://github.com/YJP520/YJP520.github.io/2023/05/30/clang-learning/"/>
     <id>https://github.com/YJP520/YJP520.github.io/2023/05/30/clang-learning/</id>
     <published>2023-05-30T05:15:31.265Z</published>
-    <updated>2023-05-30T05:31:32.667Z</updated>
+    <updated>2023-05-30T05:34:34.042Z</updated>
     
     
       
