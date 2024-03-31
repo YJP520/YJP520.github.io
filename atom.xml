@@ -6,7 +6,7 @@
   <link href="https://github.com/YJP520/YJP520.github.io/atom.xml" rel="self"/>
   
   <link href="https://github.com/YJP520/YJP520.github.io/"/>
-  <updated>2024-03-01T07:48:01.976Z</updated>
+  <updated>2024-03-31T15:58:08.357Z</updated>
   <id>https://github.com/YJP520/YJP520.github.io/</id>
   
   <author>
@@ -17,9 +17,31 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>C++ STL 总结</title>
+    <link href="https://github.com/YJP520/YJP520.github.io/2024/03/31/cpp-stl-summary/"/>
+    <id>https://github.com/YJP520/YJP520.github.io/2024/03/31/cpp-stl-summary/</id>
+    <published>2024-03-31T15:56:39.871Z</published>
+    <updated>2024-03-31T15:58:08.357Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://yjp520.github.io/&quot;&gt;YU.J.P’s Blog&lt;/a&gt;! 在这里你将学习到STL相关知识。&lt;/p&gt;
+&lt;h3 id=&quot;基本框架&quot;&gt;&lt;a href=&quot;#基本框架&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>2024 嵌入式相关要求归档</title>
-    <link href="https://github.com/YJP520/YJP520.github.io/2024/03/01/qian-ru-shi-yao-qiu-gui-dang/"/>
-    <id>https://github.com/YJP520/YJP520.github.io/2024/03/01/qian-ru-shi-yao-qiu-gui-dang/</id>
+    <link href="https://github.com/YJP520/YJP520.github.io/2024/03/01/embedded-recode/"/>
+    <id>https://github.com/YJP520/YJP520.github.io/2024/03/01/embedded-recode/</id>
     <published>2024-03-01T07:45:41.012Z</published>
     <updated>2024-03-01T07:48:01.976Z</updated>
     
